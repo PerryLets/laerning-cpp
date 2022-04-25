@@ -1,24 +1,12 @@
 #include <iostream>
-
-class console
-{
-public:
-  static void log(std::string message)
-  {
-    if (!(message.length() > 0))
-    {
-      return;
-    }
-    std::cout << " " << message << "\n";
-  }
-};
+#include <string>
 
 int main(int argc, char **argv)
 {
-  console::log(" ");
+  std::cout << "" << std::endl;
   for (int i = 1; i < argc; ++i)
   {
-    console::log(argv[i]);
+    std::cout << argv[i] << "\n";
   }
 
   return 0;
