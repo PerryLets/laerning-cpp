@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "type": "cppbuild",
+            "type": "process",
             "label": "C/C++: g++ build active file (debug)",
             "command": "/usr/bin/g++",
             "args": [
@@ -17,10 +17,12 @@
             },
             "problemMatcher": ["$gcc"],
             "group": "build",
-            "detail": "compiler: /usr/bin/g++"
+            "detail": "compiler: /usr/bin/g++",
+            "isTestCommand": true,
+            "echoCommand": true
         },
         {
-            "type": "cppbuild",
+            "type": "process",
             "label": "C/C++: g++ build active file",
             "command": "/usr/bin/g++",
             "args": [
@@ -34,7 +36,9 @@
             },
             "problemMatcher": ["$gcc"],
             "group": "build",
-            "detail": "compiler: /usr/bin/g++"
+            "detail": "compiler: /usr/bin/g++",
+            "isBuildCommand": true,
+            "echoCommand": true
         }
     ]
 }
