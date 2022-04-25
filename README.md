@@ -1,2 +1,2 @@
-# laerning-cpp
+# learning-cpp
 Bjarne Stroustrup is evil
