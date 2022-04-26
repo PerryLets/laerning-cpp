@@ -49,5 +49,4 @@ mkdir bin\debug
 ```
 
 You will also need a compiler, which usually isn't included on a Windows machine.
-You can follow the tutorial to download MinGW-x64 for Windows on the [VS Code documentation](https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64)
-After you have the compiler, you can change the tasks to use it.
+You can follow the tutorial to download MinGW-x64 for Windows on the [VS Code documentation](https://code.visualstudio.com/docs/languages/cpp#_example-install-mingwx64). After you have the compiler, you can change the tasks to use it.
